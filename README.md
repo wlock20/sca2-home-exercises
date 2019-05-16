@@ -1,3 +1,4 @@
-# bootcamp19-exercises
+# SCA 2 Exercises
 
-Exercises for the 2019 DEV Winter bootcamp
+Exercises for the 2019 SCA 2
+ 
