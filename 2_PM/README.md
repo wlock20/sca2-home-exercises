@@ -32,15 +32,29 @@ It turns out, one of the best resources for trying to figure out how to make web
 
 ## Your Mission
 
-Locally (on your computer), make two a folder called `myfirstwebpage`, and create two files in it. One called `index.html` and one called `styles.css`. One will contain the skeleton of your site, the other, the styles! With these two files, let's create a webpage of your choosing using **html** and **css** that has the following:
+Create a static website using HTML and CSS.
 
-1. At least one `<div/>` that has either an `id` or `class`
-2. Two different font sizes
-3. At least one heading (`h1`, `h2`, etc.)
-4. At least one `<a/>` tag linking to another site (using `href`)
-5. At least one image using the `<img/>` tag
-6. At least one ordered or unordered list (`<ol>` or `<ul>`) with several list items (`<li>`)
-7. Style in a separate `styles.css` file
+You can add new pages by creating new HTML files in the `View` folder and then adding new route handlers to `index.js`. For example, if you create a new `about.html` page, you'll want to add the following route handler:
+
+```
+app.get("/about", (req, res) => {
+  res.sendFile("about.html");
+});
+```
+
+## Specification
+
+Your website must include the following elements:
+
+1. At least four separate pages
+2. At least three images using the `<img/>` tag
+3. A Navigation bar where you can access every page
+4. At least one `<div/>` that has either an `id` or `class`
+5. Two different font sizes
+6. At least one heading (`h1`, `h2`, etc.)
+7. At least four `<a/>` tag linking to another site (using `href`)
+8. At least one ordered or unordered list (`<ol>` or `<ul>`) with several list items (`<li>`)
+9. Style in a separate `styles.css` file
 
 Feel free to add more to this website! These are just minimum requirements.
 
@@ -50,6 +64,10 @@ If unsure about what to make, here are some possibilities:
 - A webpage introducting yourself to the world
 - A webpage dedicated to a hobby of yours
 
+## Testing
+
+You can run your web server by running `npm run start` and accessing `localhost:3000` in your browser to view your homepage (`index.html`).
+
 ## Submission
 
-Be sure you're in the 2_PM directory and add, commit, and push both the `index.html` abd `styles.css` files using git (Remember how?).
+Be sure you're in the 2_PM directory and add, commit, and push all your changes to your files using git (Remember how?).
