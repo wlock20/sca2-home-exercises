@@ -3,16 +3,22 @@
 // flips a coin and tells the user whether or not their guess was correct
 
 const coinToss = (guess, callback) => {
-  const result = Math.round(Math.random());
-  const didWin = guess === result;
-  callback(didWin);
-};
+  const result = Math.round(Math.random())
+  const didWin = guess === result
+  callback(didWin)
+}
 
 const getUser = callback => {
   const user = {
     firstName: "John",
     lastName: "Doe",
     guess: Math.round(Math.random())
-  };
-  callback(user);
-};
+  }
+  // TODO: Run the callback function here with the appropriate parameters
+}
+
+const handleWin = didWin => {
+  // TODO
+}
+
+// TODO: run getUser
