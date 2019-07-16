@@ -34,12 +34,12 @@ It turns out, one of the best resources for trying to figure out how to make web
 
 Create a static website using HTML and CSS.
 
-You can add new pages by creating new HTML files in the `View` folder and then adding new route handlers to `index.js`. For example, if you create a new `about.html` page, you'll want to add the following route handler:
+You can add new pages by creating new HTML files in the `views` folder and then adding new route handlers to `index.js`. For example, if you create a new `about.html` page that a user can access via the `/about` path, you'll want to add the following route handler:
 
 ```
 app.get("/about", (req, res) => {
-  res.sendFile("about.html");
-});
+  res.sendFile("about.html", { root: views })
+})
 ```
 
 ## Specification
