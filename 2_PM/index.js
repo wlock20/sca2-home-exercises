@@ -8,6 +8,9 @@ const views = path.join(__dirname, "views")
 app.get("/", (req, res) => {
   res.sendFile("index.html", { root: views })
 })
+app.get("/about", (req, res) => {
+  res.sendFile("about.html", { root: views })
+})
 
 app.listen(3000)
 console.log("Running at port 3000")
