@@ -1,4 +1,4 @@
-# Day 1, Exercise AM: JavaScript Basic Training
+# Day 1: JavaScript Basic Training
 
 Fill in all of the functions in `drills.js`.
 
