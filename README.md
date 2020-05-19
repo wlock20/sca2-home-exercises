@@ -1,4 +1,6 @@
-# SCA 2 Exercises
+# SCA2 @Home Exercises
 
-Exercises for the 2019 SCA 2
- 
+Exercises for the SCA 2 @Home
+
+Created on 7/2019
+Updated 5/2020
