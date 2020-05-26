@@ -70,4 +70,4 @@ You can run your web server by running `npm run start` and accessing `localhost:
 
 ## Submission
 
-Be sure you're in the 2_PM directory and add, commit, and push all your changes to your files using git (Remember how?).
+Be sure you're in the day3 directory and add, commit, and push all your changes to your files using git (Remember how?).
