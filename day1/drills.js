@@ -49,7 +49,8 @@ const shiftRight = function(str, num) {
 
 const tokenize = function(str) {
   // TODO - write a function which converts a multi-word string into an array of words
-  let sentenceSplit = str.Split(" ");
+  let sentenceSplit = str.split(" ");
+  console.log(sentenceSplit);
 }
 
 const uniqueOnes = function(ary) {
@@ -75,6 +76,7 @@ assert(shiftRight("hello",3)==="llohe");
 assert(shiftRight("hello",2)==="lohel");
 //console.log(shiftRight("hello",3));
 //announceDate();
+tokenize("Hi, How Was Your Day");
 
 
 
