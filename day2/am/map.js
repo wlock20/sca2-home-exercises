@@ -5,7 +5,9 @@ const arr = [0, 1, 2, 3, 4]
 
 const triple = el => {
   // TODO: Triple the value inputted
-}
+  el = el * 3;
+  return el;
+};
 
 // Challenge: Implement the map method below!
 // Array.prototype.map = function(fun) {
@@ -15,4 +17,4 @@ const triple = el => {
 //   // to array and return the new array
 // }
 
-console.log(arr.map(triple))
+console.log(arr.map(triple));
