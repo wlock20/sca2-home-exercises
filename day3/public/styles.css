@@ -1,3 +1,37 @@
 body {
-  background-color: #dfdfdf;
+  background-color: #ffffff;
 }
+h1 {
+    text-align: center;
+}
+ul {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+    padding: 10px;
+    background-color: #0f6fdd
+}
+.left{
+        float:left;
+        height: 250px;
+        width: 45%;
+        background-color: rgb(14, 204, 218);
+}
+.right{
+        float:right;
+        height: 250px;
+        width: 45%;
+        margin: 5;
+        background-color: rgb(14, 204, 218);
+}
+a {
+    color: black;
+}
+img {
+     float: center;
+     margin: 50px;
+}
+
